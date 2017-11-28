@@ -1000,7 +1000,6 @@ var run = function() {
         });
 
         right.css({
-            overflowY: 'scroll',
             height: '90%',
             width: '25%'
         });
