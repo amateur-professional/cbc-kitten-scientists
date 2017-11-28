@@ -996,7 +996,7 @@ var run = function() {
         middle.css({
             marginTop: '1%',
             height: '95%',
-            width: '50%'
+            width: '45%'
         });
 
         right.css({
