@@ -25,7 +25,7 @@ var run = function() {
         debug: false,
 
         // The interval at which the internal processing loop is run, in milliseconds.
-        interval: 2000,
+        interval: 1000,
 
         // The default color for KS messages in the game log (like enabling and disabling items).
         msgcolor: '#aa50fe', // dark purple
@@ -990,19 +990,19 @@ var run = function() {
 
         left.css({
             height: '92%',
-            width: '26%'
+            width: '20%'
         });
 
         middle.css({
             marginTop: '1%',
             height: '90%',
-            width: '48%'
+            width: '50%'
         });
 
         right.css({
             overflowY: 'scroll',
             height: '92%',
-            width: '19%'
+            width: '30%'
         });
 
         addRule('#gameLog .msg {'
