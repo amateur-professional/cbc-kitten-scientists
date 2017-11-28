@@ -1003,7 +1003,7 @@ var run = function() {
             overflowY: 'scroll',
             height: '92%',
             width: '30%',
-            marginBottom: '1%'
+            marginBottom: '30px'
         });
 
         addRule('#gameLog .msg {'
