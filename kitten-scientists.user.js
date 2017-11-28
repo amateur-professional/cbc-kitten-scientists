@@ -1002,7 +1002,8 @@ var run = function() {
         right.css({
             overflowY: 'scroll',
             height: '92%',
-            width: '30%'
+            width: '30%',
+            marginBottom: '1%'
         });
 
         addRule('#gameLog .msg {'
