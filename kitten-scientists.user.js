@@ -14,7 +14,7 @@
 // ==========================================
 
 var version = 'Kitten Scientists version 1.3.2';
-var address = '1AQ1AC9W5CEAPgG5739XGXC5vXqyafhoLp';
+// var address = '1AQ1AC9W5CEAPgG5739XGXC5vXqyafhoLp';
 // Game will be referenced in loadTest function
 var game = null;
 
@@ -964,7 +964,7 @@ var run = function() {
     if (game.colorScheme !== 'sleek') {
         container.css({
             fontFamily: 'monospace',
-            fontSize: '12px',
+            fontSize: '10px',
             minWidth: '1300px',
             top: '32px'
         });
@@ -989,21 +989,20 @@ var run = function() {
         });
 
         left.css({
-            height: '92%',
+            height: '95%',
             width: '20%'
         });
 
         middle.css({
             marginTop: '1%',
-            height: '90%',
+            height: '95%',
             width: '50%'
         });
 
         right.css({
             overflowY: 'scroll',
-            height: '92%',
-            width: '30%',
-            marginBottom: '30px'
+            height: '90%',
+            width: '25%'
         });
 
         addRule('#gameLog .msg {'
@@ -1023,7 +1022,7 @@ var run = function() {
         addRule('#game .btn {'
             + 'border-radius: 0px;'
             + 'font-family: monospace;'
-            + 'font-size: 12px !important;'
+            + 'font-size: 10px !important;'
             + 'margin: 0 5px 7px 0;'
             + 'width: 290px;'
             + '}');
@@ -1846,6 +1845,7 @@ var run = function() {
     // Donation Button
     // ===============
 
+	/**
     var donate = $('<li/>').append($('<a/>', {
         href: 'bitcoin:' + address + '?amount=0.005&label=Kittens Donation',
         target: '_blank',
@@ -1864,6 +1864,8 @@ var run = function() {
     donate.css('padding', '5px');
 
     optionsListElement.append(donate);
+    **/
+    
 
     // add the options above the game log
     right.prepend(optionsElement.append(optionsListElement));
