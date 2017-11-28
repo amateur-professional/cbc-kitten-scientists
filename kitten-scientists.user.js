@@ -964,7 +964,7 @@ var run = function() {
     if (game.colorScheme !== 'sleek') {
         container.css({
             fontFamily: 'monospace',
-            fontSize: '10px',
+            fontSize: '12px',
             minWidth: '1300px',
             top: '32px'
         });
