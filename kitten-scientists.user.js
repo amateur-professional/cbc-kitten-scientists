@@ -1021,7 +1021,7 @@ var run = function() {
         addRule('#game .btn {'
             + 'border-radius: 0px;'
             + 'font-family: monospace;'
-            + 'font-size: 10px !important;'
+            + 'font-size: 12px !important;'
             + 'margin: 0 5px 7px 0;'
             + 'width: 290px;'
             + '}');
