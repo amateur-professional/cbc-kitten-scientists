@@ -41,14 +41,14 @@ var run = function() {
         consume: 0.6,
 
         // How many messages to keep in the game log.
-        logMessages:   100,
+        logMessages: 25,
 
         // The default settings for game automation.
         auto: {
             // Settings related to KS itself.
             engine: {
                 // Should any automation run at all?
-                enabled: false
+                enabled: true
             },
             faith: {
                 // Should praising be automated?
@@ -148,45 +148,45 @@ var run = function() {
             },
             space: {
                 // Should space buildings be built automatically?
-                enabled: false,
+                enabled: true,
                 // The functionality of the space section is identical to the build section. It just needs to be treated
                 // seperately, because the game internals are slightly different.
                 trigger: 0.95,
                 items: {
                     // Cath
-                    spaceElevator:  {require: 'unobtainium', enabled: false},
-                    sattelite:      {require: 'titanium',    enabled: false},
-                    spaceStation:   {require: 'oil',         enabled: false},
+                    spaceElevator:  {require: 'unobtainium', enabled: true},
+                    sattelite:      {require: 'titanium',    enabled: true},
+                    spaceStation:   {require: 'oil',         enabled: true},
 
                     // Moon
-                    moonOutpost:    {require: 'uranium',     enabled: false},
-                    moonBase:       {require: 'unobtainium', enabled: false},
+                    moonOutpost:    {require: 'uranium',     enabled: true},
+                    moonBase:       {require: 'unobtainium', enabled: true},
 
                     // Dune
-                    planetCracker:  {require: 'science',     enabled: false},
-                    hydrofracturer: {require: 'science',     enabled: false},
-                    spiceRefinery:  {require: 'science',     enabled: false},
+                    planetCracker:  {require: 'science',     enabled: true},
+                    hydrofracturer: {require: 'science',     enabled: true},
+                    spiceRefinery:  {require: 'science',     enabled: true},
 
                     // Piscine
-                    researchVessel: {require: 'titanium',    enabled: false},
-                    orbitalArray:   {require: 'eludium',     enabled: false},
+                    researchVessel: {require: 'titanium',    enabled: true},
+                    orbitalArray:   {require: 'eludium',     enabled: true},
 
                     // Helios
-                    sunlifter:          {require: 'eludium', enabled: false},
+                    sunlifter:          {require: 'eludium', enabled: true},
                     containmentChamber: {require: 'science', enabled: false},
 
                     // T-Minus
-                    cryostation:    {require: 'eludium',     enabled: false},
+                    cryostation:    {require: 'eludium',     enabled: true},
 
                     // Kairo
-                    spaceBeacon:    {require: 'antimatter',  enabled: false},
+                    spaceBeacon:    {require: 'antimatter',  enabled: true},
 
                     // Yarn
                     terraformingStation: {require: 'antimatter',  enabled: false},
-                    hydroponics:         {require: 'kerosene',    enabled: false},
+                    hydroponics:         {require: 'kerosene',    enabled: true},
 
                     // Centaurus
-                    tectonic: {require: 'antimatter', enabled: false}
+                    tectonic: {require: 'antimatter', enabled: true}
                 }
             },
             craft: {
